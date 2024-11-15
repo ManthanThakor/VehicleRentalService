@@ -1,0 +1,15 @@
+E:\manthan\VehicleRentalService\bin\Debug\net8.0\VehicleRentalService.exe
+E:\manthan\VehicleRentalService\bin\Debug\net8.0\VehicleRentalService.deps.json
+E:\manthan\VehicleRentalService\bin\Debug\net8.0\VehicleRentalService.runtimeconfig.json
+E:\manthan\VehicleRentalService\bin\Debug\net8.0\VehicleRentalService.dll
+E:\manthan\VehicleRentalService\bin\Debug\net8.0\VehicleRentalService.pdb
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.GeneratedMSBuildEditorConfig.editorconfig
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.AssemblyInfoInputs.cache
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.AssemblyInfo.cs
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.csproj.CoreCompileInputs.cache
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.sourcelink.json
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.dll
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\refint\VehicleRentalService.dll
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.pdb
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\VehicleRentalService.genruntimeconfig.cache
+E:\manthan\VehicleRentalService\obj\Debug\net8.0\ref\VehicleRentalService.dll
