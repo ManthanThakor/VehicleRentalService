@@ -13,6 +13,11 @@ namespace VehicleRental
             this.name = name;
             this.model = model;
             this.fuelType = fuelType;
+
+            if (this.GetType() == typeof(Vehicle))
+            {
+                Console.WriteLine("\nThe Vehicle section:");
+            }
         }
 
         public virtual void Start()
@@ -25,7 +30,7 @@ namespace VehicleRental
             Console.WriteLine($"The vehicle has stopped due to an issue. It appears that the fuel type '{fuelType}' may be unsuitable.");
         }
 
-        public virtual decimal CalculateRentalPrice(int rentalDuration)
+        public virtual double CalculateRentalPrice(int rentalDuration)
         {
             return 0;
         }
@@ -48,9 +53,9 @@ namespace VehicleRental
             Console.WriteLine($"The Car has stopped due to an issue. It appears that the fuel type '{fuelType}' may be unsuitable.");
         }
 
-        public override decimal CalculateRentalPrice(int rentalDuration)
+        public override double CalculateRentalPrice(int rentalDuration)
         {
-            decimal pricePerHour = 20.0m; 
+            double pricePerHour = 20.0; 
             return pricePerHour * rentalDuration;
         }
     }
@@ -72,9 +77,9 @@ namespace VehicleRental
             Console.WriteLine($"The Truck has stopped due to an issue. It appears that the fuel type '{fuelType}' may be unsuitable.");
         }
 
-        public override decimal CalculateRentalPrice(int rentalDuration)
+        public override double CalculateRentalPrice(int rentalDuration)
         {
-            decimal pricePerHour = 30.0m;
+            double pricePerHour = 30.0;
             return pricePerHour * rentalDuration;
         }
     }
@@ -96,9 +101,9 @@ namespace VehicleRental
             Console.WriteLine($"The Bike has stopped due to an issue. It appears that the fuel type '{fuelType}' may be unsuitable.");
         }
 
-        public override decimal CalculateRentalPrice(int rentalDuration)
+        public override double CalculateRentalPrice(int rentalDuration)
         {
-            decimal pricePerHour = 10.0m;
+            double pricePerHour = 10.0;
             return pricePerHour * rentalDuration;
         }
     }
